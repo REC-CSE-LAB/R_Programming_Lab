@@ -25,13 +25,22 @@ Factorial = function(x)
 num = as.numeric(readline("Enter a number : "))
 Factorial(num)
 
-# Input :
+# Input 1:
+#  -1
+#  -9
 #  5
 
-# Output:
-#  Enter a number : -1
+# Output 1:
+#   Enter a number : -1
 #   -1 is an negative number. try again
 #   Enter an positive integer : -9
 #   -9 is an negative number. try again
 #   Enter an positive integer : 5
 #   Factorial of 5 is 120
+
+# Input 2:
+# 0
+
+# Output 2:
+# Enter a number : 0
+# Factorial of 0 is 1
