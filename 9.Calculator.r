@@ -39,6 +39,7 @@ calculator()
 # Input:
 #   5
 #   43
+#   1
 #   N
 
 # Output:
