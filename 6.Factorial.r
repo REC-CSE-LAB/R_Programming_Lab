@@ -7,7 +7,7 @@ Factorial = function(x)
   if( x < 0 )
   {
     cat(x,"is an negative number. try again")
-    n = as.integer(readline("Enter an positive integer : "))
+    n = as.numeric(readline("Enter an positive integer : "))
     Factorial(n)
   }
   else if( x == 0 )
