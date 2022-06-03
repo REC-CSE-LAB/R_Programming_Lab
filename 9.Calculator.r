@@ -16,7 +16,7 @@ calculator = function()
     cat("3.Multiplication\n")
     cat("4.Division\n")
     cat("5.Modular Division\n\n")
-    option = as.numeric(readline("Enter your choice : "));
+    option = as.numeric(readline("Enter your choice : "))
   
     if( option == 1 )
       cat( a,"+",b,"=",(a+b) )
