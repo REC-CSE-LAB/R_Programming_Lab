@@ -37,8 +37,9 @@ calculator = function()
 calculator()
 
 # Input:
-# 5
-# 43
+#   5
+#   43
+#   N
 
 # Output:
 #  Enter a number : 5
