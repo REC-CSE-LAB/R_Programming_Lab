@@ -20,7 +20,7 @@ Even_or_Odd(x)
 #  5
 # Output 1:
 #  Enter a value : 5
-#  5 is an odd number.
+#  5 is an odd number.4
 
 # Input 2:
 #  4
