@@ -41,17 +41,17 @@ calculator()
 # 43
 
 # Output:
-#Enter a number : 5
-#Enter another number : 43
+#  Enter a number : 5
+#  Enter another number : 43
 #
-#Choose your option :-
+#  Choose your option :-
 #  
-# 1.Addition
-#2.Subtraction
-#3.Multiplication
-#4.Division
-#5.Modular Division
+#  1.Addition
+#  2.Subtraction
+#  3.Multiplication
+#  4.Division
+#  5.Modular Division
 #
-#Enter your choice : 1
-#5 + 43 = 48
-#Do you want to continue [Y/N] : N
+#  Enter your choice : 1
+#  5 + 43 = 48
+#  Do you want to continue [Y/N] : N
