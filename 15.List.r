@@ -13,22 +13,28 @@
 stu_list <- function()
 {
   student=list("170981A0201","Md.Ahmed","Male",2) 
+  
   # Print the list
   cat("The student details are \n")
   print(student)
+  
   # (i) Give names to the components of the list
   names(student)=c("Roll_no.","Name","Gender","Backlogs") 
+  
   # Print the list with names
   cat("The list with component names \n")
   print(student)
+  
   # ii) Add a component with name passport_no. at the end of the list
   student$passport_no.="M7802031"
   cat("The list with passport number \n")
   print(student)
+  
   # iii) Remove the third component
   student$Gender=NULL
   cat("The list after removing gender\n")
   print(student)
+  
   # iv) update the number of backlogs to 1
   student$Backlogs=1
   cat("The updated backlogs is \n")
