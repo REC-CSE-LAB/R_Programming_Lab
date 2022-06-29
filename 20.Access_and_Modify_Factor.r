@@ -20,45 +20,57 @@ fac1<-function()
   status=c("single","married","divorced","single","married","married",
            "single","married","married","single")
   m_status=factor(status)
-  print("The variable status as a factor variable is ")
+  
+  cat("The variable status as a factor variable is:\n")
   print(m_status)
-  print("The structure of the factor variable is ")
+  
+  cat("\nThe structure of the factor variable is:\n")
   print(str(m_status))
-  print("The 3rd component of the factor variable is ")
+  
+  cat("\nThe 3rd component of the factor variable is:\n")
   print(m_status[3])
-  print("The 1st and 4th components of the factor variable is ")
+  
+  cat("\nThe 1st and 4th components of the factor variable is:\n")
   print(m_status[c(1,4)])
-  print("Modifying the factor 3rd component as married ") 
+  
+  cat("Modifying the factor 3rd component as married:\n") 
   m_status[3]="married"
   print(m_status)
-  print("The levels of the factor are ")
+  
+  cat("\nThe levels of the factor are:\n")
   print(levels(m_status))
-  print("Adding a new level widowed to the factor levels") 
+  
+  cat("\nAdding a new level widowed to the factor levels\n") 
   levels(m_status)=c(levels(m_status),"widowed")
-  print("The updated levels are ")
+  print("The updated levels are:\n")
   print(levels(m_status))
 }
 fac1()
 
 # OUTPUT:
 
-#   [1] "The variable status as a factor variable is "
-#   [1] single   married  divorced single   married  married  single   married  married  single  
+#   The variable status as a factor variable is:
+#     [1] single   married  divorced single   married  married  single   married  married  single  
 #   Levels: divorced married single
-#   [1] "The structure of the factor variable is "
-#   Factor w/ 3 levels "divorced","married",..: 3 2 1 3 2 2 3 2 2 3
+#   
+#   The structure of the factor variable is:
+#     Factor w/ 3 levels "divorced","married",..: 3 2 1 3 2 2 3 2 2 3
 #   NULL
-#   [1] "The 3rd component of the factor variable is "
-#   [1] divorced
+#   
+#   The 3rd component of the factor variable is:
+#     [1] divorced
 #   Levels: divorced married single
-#   [1] "The 1st and 4th components of the factor variable is "
-#   [1] single single
+#   
+#   The 1st and 4th components of the factor variable is:
+#     [1] single single
 #   Levels: divorced married single
-#   [1] "Modifying the factor 3rd component as married "
-#   [1] single  married married single  married married single  married married single 
+#   Modifying the factor 3rd component as married:
+#     [1] single  married married single  married married single  married married single 
 #   Levels: divorced married single
-#   [1] "The levels of the factor are "
-#   [1] "divorced" "married"  "single"  
-#   [1] "Adding a new level widowed to the factor levels"
-#   [1] "The updated levels are "
+#   
+#   The levels of the factor are:
+#     [1] "divorced" "married"  "single"  
+#   
+#   Adding a new level widowed to the factor levels
+#   [1] "The updated levels are:\n"
 #   [1] "divorced" "married"  "single"   "widowed" 
