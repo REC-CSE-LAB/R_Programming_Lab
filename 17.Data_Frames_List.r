@@ -1,7 +1,9 @@
-# Aim: Write  a R program to create a data frame of five students with five fields
+# Aim:  Write an R Program to access a Data Frame like a List.
+
 
 # Procedure:
 
+# Write  a R program to create a data frame of five students with five fields
 # namely Roll number, name, gender, blood group and grade. 
 # write a code 
 # 1) to extract specific column namely Grade from a data frame like a list. 
