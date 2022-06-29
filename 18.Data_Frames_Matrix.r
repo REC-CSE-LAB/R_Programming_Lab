@@ -17,7 +17,7 @@ st3_df <- function()
   roll_number=c("200981A0101","200981A0102","200981A0103","200981A0104","200981A0105")
   name=c("Ahmed","John","Rama","Begum","Rani")
   gender=c("M","M","M","F","F")
-  blood=c("A+","B-","o","A-","0")
+  blood=c("A+","B-","O","A-","O")
   blood_group=factor(blood)
   grade=c(8,8.5,7.5,9,8.5)
   stud_df=data.frame(roll_number,name,gender,blood_group,grade)
@@ -52,7 +52,7 @@ st3_df()
 #   2 200981A0102  John      M          B-   8.5
 #   3 200981A0103  Rama      M           o   7.5
 #   4 200981A0104 Begum      F          A-   9.0
-#   5 200981A0105  Rani      F           0   8.5
+#   5 200981A0105  Rani      F           O   8.5
 #   
 #   Extracting first two rows from a given data frame
 #   roll_number  name gender blood_group grade
@@ -63,7 +63,7 @@ st3_df()
 #   roll_number  name gender blood_group grade
 #   2 200981A0102  John      M          B-   8.5
 #   4 200981A0104 Begum      F          A-   9.0
-#   5 200981A0105  Rani      F           0   8.5
+#   5 200981A0105  Rani      F           O   8.5
 #   
 #   Adding two more students at the end of the data frame
 #   roll_number   name gender blood_group grade
@@ -71,7 +71,7 @@ st3_df()
 #   2 200981A0102   John      M          B-   8.5
 #   3 200981A0103   Rama      M           o   7.5
 #   4 200981A0104  Begum      F          A-   9.0
-#   5 200981A0105   Rani      F           0   8.5
+#   5 200981A0105   Rani      F           O   8.5
 #   6 200981A0107   Ravi    \nM          A+   8.0
 #   7 200981A0108 Alekya      F          B-   9.0
 #   8 200981A0107   Ravi    \nM          A+   8.0
@@ -86,6 +86,6 @@ st3_df()
 #   roll_number   name gender blood_group grade
 #   1 200981A0101  Ahmed      M          A+   8.0
 #   2 200981A0102   John      M          B-   8.5
-#   5 200981A0105   Rani      F           0   8.5
+#   5 200981A0105   Rani      F           )   8.5
 #   6 200981A0107   Ravi    \nM          A+   8.0
 #   7 200981A0108 Alekya      F          B-   9.0

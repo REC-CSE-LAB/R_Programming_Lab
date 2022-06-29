@@ -17,7 +17,7 @@ st2_df <- function()
   roll_number=c("200981A0101","200981A0102","200981A0103","200981A0104","200981A0105")
   name=c("Ahmed","John","Rama","Begum","Rani")
   gender=c("M","M","M","F","F")
-  blood=c("A+","B-","o","A-","0")
+  blood=c("A+","B-","O","A-","O")
   blood_group=factor(blood)
   grade=c(8,8.5,7.5,9,8.5)
   stud_df=data.frame(roll_number,name,gender,blood_group,grade)
@@ -61,4 +61,4 @@ st2_df()
 #   2 200981A0102  John          B-   8.5
 #   3 200981A0103  Rama           o   7.5
 #   4 200981A0104 Begum          A-   9.0
-#   5 200981A0105  Rani           0   8.5
+#   5 200981A0105  Rani           O   8.5
