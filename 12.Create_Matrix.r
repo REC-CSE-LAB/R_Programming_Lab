@@ -5,18 +5,18 @@
 create_matrix = function()
 {
   rows = as.numeric(readline("Enter number of rows : "))
-  columns = as.numeric(readline("Enter number of columns : "))
-  cat("Enter the",(rows*columns),"elements : ")
+  cols = as.numeric(readline("Enter number of cols : "))
+  cat("Enter the",(rows*cols),"elements : ")
   elements = scan()
   
-  Matrix = matrix( elements, nrow = rows, ncol = columns, byrow = TRUE )
-  colnames(Matrix) <- letters[1:columns]
-  rownames(Matrix) <- letters[1:rows]
+  M = matrix( elements, nrow = rows, ncol = cols, byrow = TRUE )
+  colnames(M) <- letters[1:cols]
+  rownames(M) <- letters[1:rows]
   
   cat("Enter the row and column using their names :-\n")
-  input_row = readline("Enter the row letter of the element : ")
-  input_col = readline("Enter the col letter of the element : ")
-  cat("Element at Matrix[",input_row,"][",input_col,"] is ", Matrix[input_row, input_col],sep="")
+  r = readline("Enter the row letter of the element : ")
+  c = readline("Enter the col letter of the element : ")
+  cat("Element at Matrix[",r,"][",c,"] is ", M[r,c],sep="")
 }
 create_matrix()
 
@@ -29,7 +29,7 @@ create_matrix()
 
 # Output:
 #   Enter number of rows : 3
-#   Enter number of columns : 3
+#   Enter number of cols : 3
 #   Enter the 9 elements : 
 #   1: 1 2 3 4 5 6 7 8 9
 #   10: 
