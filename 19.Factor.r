@@ -1,33 +1,26 @@
 # Aim: Write an R Program to create a Factor.
 
-# Procedure:
-
-# Write a r program to create a factor for the variable 'marital status' 
-# of the employees in a company and print the factor variable and structure.
-# The marital status of 10 employees: single,married,divorced,single,married,married,
-# single,married,married,single
-
 # Source Code:
 
 fac<-function()
 {
-  status=c("single","married","divorced","single","married","married",
-           "single","married","married","single")
-  m_status=factor(status)
+  branch=c("CSE","MEC","ECE","CSE","MEC","MEC", "CSE","MEC","MEC","CSE")
+  REC=factor(branch)
   
-  cat("The variable status as a factor variable is:\n")
-  print(m_status)
+  cat("The variable branch as a factor variable is:\n")
+  print(REC)
   
   cat("\nThe structure of the factor variable is:\n")
-  print(str(m_status))
+  print(str(REC))
 }
 fac()
 
 # OUTPUT:
 
-#   The variable status as a factor variable is:
-#     [1] single   married  divorced single   married  married  single   married  married  single  
-#   Levels: divorced married single
+#   The variable branch as a factor variable is:
+#     [1] CSE MEC ECE CSE MEC MEC CSE MEC MEC CSE
+#   Levels: CSE ECE MEC
 #   
 #   The structure of the factor variable is:
-#     Factor w/ 3 levels "divorced","married",..: 3 2 1 3 2 2 3 2 2 3
+#     Factor w/ 3 levels "CSE","ECE","MEC": 1 3 2 1 3 3 1 3 3 1
+#   NULL
