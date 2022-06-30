@@ -19,7 +19,7 @@ fac1<-function()
   cat("\nThe 1st and 4th components of the factor variable is:\n")
   print(REC[c(1,4)])
   
-  cat("\nModifying the factor 3rd component as married:\n") 
+  cat("\nModifying the factor 3rd component as MEC:\n") 
   REC[3]="MEC"
   REC=factor(REC)
   print(REC)
@@ -52,7 +52,7 @@ fac1()
 #     [1] CSE CSE
 #   Levels: CSE ECE MEC
 #   
-#   Modifying the factor 3rd component as married:
+#   Modifying the factor 3rd component as MEC:
 #     [1] CSE MEC MEC CSE MEC MEC CSE MEC MEC CSE
 #   Levels: CSE MEC
 #   
@@ -62,3 +62,9 @@ fac1()
 #   Adding a new level EEE to the factor levels
 #   The updated levels are:
 #   [1] "CSE" "MEC" "EEE"
+
+
+# Bonus :
+# Total deletion fo variables
+
+# rm(list=ls())
