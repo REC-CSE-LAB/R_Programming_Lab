@@ -1,3 +1,7 @@
+# Aim: Write an R Program to create an S3 Class and S3Objects.
+
+# Source Code:
+
 obj1 = list( name = "sam", rollno = "5c0", std = "2-2")
 class(obj1) = "student"
 print(otype(obj1))
